@@ -17,19 +17,19 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" >
 
-    <Button
-        android:id="@+id/musicBtn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="musicPause"
-        android:text="Pause" />
+        <Button
+            android:id="@+id/musicBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="musicPause"
+            android:text="Pause" />
 
-    <Button
-        android:id="@+id/musicBtn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="musicStopStart"
-        android:text="Stop/Start" />
+        <Button
+            android:id="@+id/musicBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="musicStopStart"
+            android:text="Stop/Start" />
 
     </TableRow>
 
