@@ -33,6 +33,13 @@ public class MainActivity extends AppCompatActivity {
         WebView myWebView = (WebView) findViewById(R.id.webview);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+
+        String Html =
+                "<html><head><body><p>video from youtobe<br></P></body></head></html>";
+
+        myWebView.getSettings().setDefaultTextEncodingName("UTF -8");
+        myWebView.loadData(Html, "text/html; charset=UTF-8", null);
+
         myWebView.loadUrl("https://www.youtube.com/embed/6uUsfU6PGp0");
 
         myWebView.setWebViewClient(new WebViewClient(){
